@@ -1,7 +1,41 @@
-# TIHM1.5-Data
+# Remote Healthcare Monitoring
 
-## Summary of Data Records
+## Problem Statement
+Can we build a model that can detect health alerts for continuous remote monitoring?
 
+## Background
+Dementia is a progressive condition that affects cognitive and functional abilities. There is a need for reliable and continuous health monitoring of People Living with Dementia (PLWD) to improve their quality of life and support their independent living. Healthcare services often focus on addressing and treating already established health conditions that affect PLWD. Managing these conditions continuously can inform better decision-making earlier for higher-quality care management for PLWD. Via machine learning and analytical models we can detect and predict adverse health events affecting the well-being of PLWD. 
+The motivation behind it is to showcase analytical skills behind this dataset, including:
+	-Exploratory data analysis
+	-Pre-processing data
+	-Building an alert detection model
+
+## Goal
+
+Using Machine Learning methods, we wish to detect system alerts across different health variables, across multiple patients that suffer from dementia.
+
+## TIHM-Dataset
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7622128.svg)](https://doi.org/10.5281/zenodo.7622128) 
+<br/>
+
+The data utilised was extracted from this article: TIHM: An open dataset for remote healthcare monitoring in dementia.
+The dataset is available on its corresponding [Zenodo repository](https://zenodo.org/record/7622128).
+The full description of this dataset is published in Nature Scientific Data: [paper](https://doi.org/10.1038/s41597-023-02519-y)
+
+The data was collected from homes of 56 PLWD and associated with events and clinical observations (daily activity, physiological monitoring, and labels for health-related conditions). 
+The study recorded an average of 50 days of data per participant, totalling 2803 days.
+
+## Results 
+
+
+## Risks and Assumptions
+The results of this study depend greatly on certain assumptions. The response variable does not apply to all cases on the dataset (originally a different type of study), so there is a loss of data. Furthermore, the data is a cohort of patients from the UK, which must be considered when looking at populations from other areas.
+
+
+## Data Dictionaries
+
+The dataset is organised in five separate tables stored as separate CSV files, including, Activity, Sleep, Physiology, Labels and Demographics. Data can be cross-referenced across the files. 
 
 ### Activity
 
