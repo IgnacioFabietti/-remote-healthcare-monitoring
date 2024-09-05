@@ -28,6 +28,8 @@ The study recorded an average of 50 days of data per participant, totalling 2803
 
 ## Results 
 
+We were able to replicate the findings of the article, where the linear regression model proved to be a better classification model of Agitation.
+Furthermore, the SHAP values also indicate that 'Activity' data is more relevant than 'Physiological' data for that prediction.
 
 ## Risks and Assumptions
 The results of this study depend greatly on certain assumptions. The response variable does not apply to all cases on the dataset (originally a different type of study), so there is a loss of data. Furthermore, the data is a cohort of patients from the UK, which must be considered when looking at populations from other areas.
